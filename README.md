@@ -37,9 +37,8 @@
 ##### 5. Создать репозиторий удаленный(GitHub) - > git add -> git commit
 
 ##### 6. Язык для форматирования README.mb: Markdown
-<<<<<<< HEAD
+
   - [шпаргалка на GitHub по Markdown](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#links "на русском")
   - [демо-версия](https://markdown-here.com/livedemo.html)
   - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/ "in English")
-=======
->>>>>>> bf00d1b8d28eef20d3d12f2f19976f331c1c4fbc
+
