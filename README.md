@@ -44,6 +44,7 @@
   - [шпаргалка на GitHub по Markdown](https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#links "на русском")
   - [демо-версия](https://markdown-here.com/livedemo.html)
   - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/ "in English")
+  - [создание блок-схем](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
 
 ##### 7. HEAD - указывает на последний коммит, один из служебных файлов папки .git
   - Внутри него ссылка на служебный файл: refs/heads/master (или refs/heads/main в зависимости от названия ветки). Если заглянуть в этот файл, можно увидеть хеш последнего коммита.
