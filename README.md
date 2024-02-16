@@ -56,12 +56,12 @@
   - **modified** измененный, требует add до его коммита
 
 ```mermaid
-graph LR;
-  untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
-
-%% стрелка без текста для примера: 
-  A --> B;
+flowchart TD
+  A[untracked] -- "git add" --> B{staged, tracked}
+  B -- "changed" --> C[modified, tracked]
+  C -- "git add" --> B
+  B -- "git commit" --> D[comitted, tracked]
+  D -- "changed" --> C;
 ```
 
 ##### 9. Стиль коммитов
