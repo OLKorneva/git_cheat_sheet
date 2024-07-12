@@ -205,13 +205,13 @@ flowchart LR
   B --> C[C3]
   C --> D[C4]
   D -- "main" --> E[C5]
-  E --> L[ ]
-  D -.- "add-docs" -.-> F[N1]
-  F -.-> J[N2]
-  J -.-> K[ ];
-  style A fill:#efdecd
-  style B fill:#0095b6
-  style C fill:#0ff
-  style D fill:#96c
-  style E fill:#98ff98
+  D -- "add-docs" --> F[N1]
+  F --> J[N2]
+  style A fill:#efdecd, stroke: #96c
+  style B fill:#efdecd, stroke: #96c
+  style C fill:#efdecd, stroke: #96c
+  style D fill:#efdecd, stroke: #96c
+  style E fill:#efdecd, stroke: #96c
+  style F fill:#96c, stroke:#efdecd
+  style J fill:#96c, stroke:#efdecd
   ```
