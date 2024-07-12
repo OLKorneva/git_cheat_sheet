@@ -201,12 +201,17 @@ Git просто добавил коммиты из add-docs в ветку main,
 
 ```mermaid
 flowchart LR
-  A[C1] -- "main" --> B{C2}
-  B -- > C[C3]
+  A[C1] -- "main" --> B[C2]
+  B --> C[C3]
   C --> D[C4]
   D -- "main" --> E[C5]
-  D -- "add-docs" --> F[N1]
-  F --> J[N2]
-  J --> K
-  E --> L;
-```
+  E --> L[]
+  D -.- "add-docs" -.-> F[N1]
+  F -.-> J[N2]
+  J -.-> K[];
+  style A fill:#efdecd
+  style B fill:#0095b6
+  style C fill:#0ff
+  style D fill:#96c
+  style E fill:#98ff98
+  ```
