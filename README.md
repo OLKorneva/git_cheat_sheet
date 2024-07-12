@@ -205,10 +205,10 @@ flowchart LR
   B --> C[C3]
   C --> D[C4]
   D -- "main" --> E[C5]
-  E --> L[]
+  E --> L[ ]
   D -.- "add-docs" -.-> F[N1]
   F -.-> J[N2]
-  J -.-> K[];
+  J -.-> K[ ];
   style A fill:#efdecd
   style B fill:#0095b6
   style C fill:#0ff
